@@ -277,11 +277,11 @@ cd $BUILD_PATH
 ###############
 
 # Download Imagemagick dependency
-curl -L http://www.imagemagick.org/download/releases/ImageMagick-6.9.1-0.tar.xz -o ImageMagick.tar.xz
+curl -L http://www.imagemagick.org/download/releases/ImageMagick-6.9.2-4.tar.xz -o ImageMagick.tar.xz
 # Unzip
 tar -xvf ImageMagick.tar.xz
 # Get into Imagemagick folder
-cd ImageMagick-6.9.1-0
+cd ImageMagick-6.9.2-4
 # Configure build
 ./configure --prefix $OUT_PATH --with-gcc-arch
 # Make Imagemagick
